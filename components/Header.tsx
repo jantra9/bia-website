@@ -21,7 +21,7 @@ const Header = () => {
                 <Image 
                 src="/Polygon 1.png"
                 objectFit='cover '
-                layout='fill'
+                fill
                 alt='image'
                 />
               </div>

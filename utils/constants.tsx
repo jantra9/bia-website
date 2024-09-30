@@ -11,18 +11,18 @@ export const images=[
         title:"lounge",
         desc:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur iste unde et nesciunt officia numquam exercitationem temporibus, ex omnis odio provident, laboriosam alias incidunt nobis? Est aliquam beatae provident a!"
     },
-    // {
-    //     id:2,
-    //     src:"/travel.3.png",
-    //     title:"shopping at airport",
-    //     desc:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur iste unde et nesciunt officia numquam exercitationem temporibus, ex omnis odio provident, laboriosam alias incidunt nobis? Est aliquam beatae provident a!"
-    // },
-    // {
-    //     id:3,
-    //     src:"/travel.4.png",
-    //     title:"fancy store",
-    //     desc:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur iste unde et nesciunt officia numquam exercitationem temporibus, ex omnis odio provident, laboriosam alias incidunt nobis? Est aliquam beatae provident a!"
-    // },
+    {
+        id:2,
+        src:"/travel.3.png",
+        title:"shopping at airport",
+        desc:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur iste unde et nesciunt officia numquam exercitationem temporibus, ex omnis odio provident, laboriosam alias incidunt nobis? Est aliquam beatae provident a!"
+    },
+    {
+        id:3,
+        src:"/travel.4.png",
+        title:"fancy store",
+        desc:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur iste unde et nesciunt officia numquam exercitationem temporibus, ex omnis odio provident, laboriosam alias incidunt nobis? Est aliquam beatae provident a!"
+    },
     // {
     //     id:4,
     //     src:"/travel.5.jpg",

@@ -15,7 +15,9 @@ const config: Config = {
       'header-background': "url('/Header background.png')",
       },
       fontFamily:{
-        custom:['Otomanopee','sans-serif']
+        custom:['Otomanopee','sans-serif'],
+        poppins: ['Poppins', 'sans-serif'], // Add Poppins to the font family list
+      
       }
     },
   },

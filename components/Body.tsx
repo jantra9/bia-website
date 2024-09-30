@@ -5,7 +5,7 @@ const Body = () => {
   return (
     <div>
         <Highlights1 />
-        <div>Body</div>
+        <div className='bg-orange-300'>Body</div>
     </div>
   )
 }
