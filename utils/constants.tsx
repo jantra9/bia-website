@@ -22,23 +22,44 @@ export const images=[
         src:"/travel.4.png",
         title:"fancy store",
         desc:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur iste unde et nesciunt officia numquam exercitationem temporibus, ex omnis odio provident, laboriosam alias incidunt nobis? Est aliquam beatae provident a!"
+    }, 
+]
+
+export const travel=[
+    {
+        id:0,
+        src:"/place0.png",
+        title:"Sigiriya",
+        desc:"Eighth Wonder of the World"
     },
-    // {
-    //     id:4,
-    //     src:"/travel.5.jpg",
-    //     title:"fancy store",
-    //     desc:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur iste unde et nesciunt officia numquam exercitationem temporibus, ex omnis odio provident, laboriosam alias incidunt nobis? Est aliquam beatae provident a!"
-    // },
-    // {
-    //     id:5,
-    //     src:"/travel.6.jpg",
-    //     title:"family travel",
-    //     desc:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur iste unde et nesciunt officia numquam exercitationem temporibus, ex omnis odio provident, laboriosam alias incidunt nobis? Est aliquam beatae provident a!"
-    // },
-    // {
-    //     id:6,
-    //     src:"/travel.7.jpg",
-    //     title:"family travel",
-    //     desc:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur iste unde et nesciunt officia numquam exercitationem temporibus, ex omnis odio provident, laboriosam alias incidunt nobis? Est aliquam beatae provident a!"
-    // }
+    {
+        id:1,
+        src:"/place1.png",
+        title:"Colombo",
+        desc:"Capital City"
+    },
+    {
+        id:2,
+        src:"/place2.png",
+        title:"Arugam Bay",
+        desc:"Beaches"
+    },
+    {
+        id:3,
+        src:"/place3.png",
+        title:"Nuwara Eliya",
+        desc:"Waterfalls"
+    },
+    {
+        id:4,
+        src:"/place2.png",
+        title:"Mirissa",
+        desc:"Whale watching"
+    },
+    {
+        id:4,
+        src:"/place3.png",
+        title:"Dambulla",
+        desc:"Temples"
+    },
 ]

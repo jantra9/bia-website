@@ -1,13 +1,17 @@
 import React from 'react'
-import Image from 'next/image'
+import Banner from './mini-components/Banner'
 import Highlights1 from './mini-components/Highlights1'
 import Dealsforyou from './mini-components/Dealsforyou'
+import FinalSlide from './mini-components/FinalSlide'
+import BookYourHoliday from './mini-components/BookYourHoliday'
 const Body = () => {
   return (
-    <div>
+    <div className='w-screen'>
         <Highlights1 />
         <Dealsforyou />
-        <div className='bg-orange-300'>Body</div>
+        <FinalSlide />
+        <BookYourHoliday />
+        <Banner />
     </div>
   )
 }

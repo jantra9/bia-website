@@ -11,14 +11,11 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage:{
-      'header-background': "url('/Header background.png')",
-      },
       fontFamily:{
         custom:['Otomanopee','sans-serif'],
         poppins: ['Poppins', 'sans-serif'], // Add Poppins to the font family list
       
-      }
+      },
     },
   },
   plugins: [],

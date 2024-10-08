@@ -85,7 +85,7 @@ const Footer = () => {
             </div>
         </div>
         {/* This is icon */}
-        <div className='flex justify-end items-center pr-[150px] pb-[100px] space-x-8'>
+        <div className='flex justify-end items-center pr-[150px] pb-[50px] space-x-8'>
             <div>
                 <Image src="/Logo.png" width={100} height={100} alt='logo' />
             </div>

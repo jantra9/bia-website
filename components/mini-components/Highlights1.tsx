@@ -12,7 +12,7 @@ import 'swiper/css/pagination';
 const Hightlights1 = () => {
   
  return (
-<div className='bg-white pt-[50px] relative overflow-hidden h-[100%]'> 
+<div className='bg-white pt-[150px] relative overflow-hidden h-[100%] w-full'> 
   {/* This is the highlight text */}
   <div className='space-y-4 absolute z-10 pl-16'>
     <p className='text-8xl text-sky-600 font-bold font-custom'>Highlights</p>

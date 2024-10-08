@@ -24,11 +24,11 @@ const Dealsforyou = () => {
       <Image src="/Dealsforyou.png" fill objectFit='fill' alt='background in grey'/>
     </div>
     {/* This is container for swiper as Swiper styling for margin and padding not working. This is for buttons to go outside the swiper */}
-    <div className=' relative h-full w-[93%] z-10 mt-[15px] flex'>
+    <div className='relative h-full w-[93%] z-10 mt-[15px] flex'>
       <Swiper
-      spaceBetween={20}
+      spaceBetween={30}
       slidesPerView={3}
-      className='  w-full'
+      className='w-full'
       loop={true}
       modules={[Pagination,Navigation]}
       initialSlide={0} 
@@ -38,9 +38,9 @@ const Dealsforyou = () => {
           <SwiperSlide key={index}>
             {({ isActive}) => (
                 <>
-                  <div className={`relative h-[70%] w-[710px]  top-10 overflow-hidden bg-white rounded-3xl shadow-2xl transition-transform hover:-translate-y-9 duration-500 ease-linear ${isActive ? "rounded-r-full rounded-l-[900px]" : "rounded-3xl"}`}>
+                  <div className={`relative h-[70%] w-full  top-10 overflow-hidden bg-white rounded-3xl shadow-2xl transition-transform hover:-translate-y-9 duration-200 ease-linear ${isActive ? "rounded-r-full rounded-l-[900px]" : "rounded-3xl"}`}>
                     {/* Images */}
-                    <div className={`relative w-full h-[330px] rounded-3xl ${isActive?"rounded-l-3xl ":""} `}>
+                    <div className={`relative w-full h-[340px] rounded-3xl ${isActive?"rounded-l-3xl ":""} `}>
                       <Image src={image.src} alt='image' fill style={{objectFit:"cover"}} className='rounded-3xl'/>
                     </div>
                     {/* The text of each slide matching the images */}

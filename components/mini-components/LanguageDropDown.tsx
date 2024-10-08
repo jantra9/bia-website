@@ -16,8 +16,8 @@ const LanguageDropDown = () => {
   return (
     <div className="relative text-left">
       {/* Container with border wrapping both button and dropdown */}
-      <div className={`border border-gray-300 rounded-md ${isOpen ? 'border-b-0 rounded-b-none' : ''}`}>
-        <div className="flex px-1 py-0.5 bg-slate-50/[0.2] items-center">
+      <div className={`border border-white rounded-md ${isOpen ? 'border-b-0 rounded-b-none' : ''}`}>
+        <div className="flex px-1 py-2 bg-slate-50/[0.2] items-center">
           <div className="mr-2">
             <Image
               src="/SriLanka-flag.png" // Path to the image in the public folder

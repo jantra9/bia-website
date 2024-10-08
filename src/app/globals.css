@@ -40,3 +40,12 @@ body {
   font-weight:normal;
   font-style:normal
 }
+.react-datepicker__day-name, .react-datepicker__day, .react-datepicker__time-name {
+  margin:1rem !important;
+  font-size:x-large!important;
+  font-weight: 700 !important;
+}
+h2.react-datepicker__current-month{
+  font-size: x-large !important;
+  font-weight: 700 !important;
+}

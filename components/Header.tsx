@@ -6,21 +6,21 @@ import LanguageDropDown from './mini-components/LanguageDropDown';
 import SearchIcon from './mini-components/SearchIcon';
 const Header = () => {
   return (
-    <div className=''>
-        <div className='bg-center w-screen h-[650px] relative'>
+    <div className='text-xl w-screen overflow-hidden'>
+        <div className='bg-center w-screen h-[1000px] relative'>
             {/* This is the video background */}
             <div className='absolute inset-0 object-cover'>
-            <div>
+            <div className='w-full'>
               <video autoPlay loop muted className="absolute inset-0 object-cover w-full h-full">
               <source
                 src="original.mp4"
                 type="video/mp4"
               />
               </video>
-              <div className='absolute z-20 inset-0 mt-[570px]'>
+              <div className='absolute z-20 inset-0 mt-[730px] w-full'>
                 <Image 
                 src="/Polygon 1.png"
-                objectFit='cover '
+                objectFit='fill '
                 fill
                 alt='image'
                 />
@@ -61,7 +61,7 @@ const Header = () => {
               {/*buttons*/}
               <div className='flex space-x-5 justify-between'>
                   <Link href='#'>
-                    <button className="px-5 h-8 rounded-lg text-white border-white border bg-slate-300/[0.2]"> Airports </button>
+                    <button className="px-5 py-2 rounded-lg text-white border-white border bg-slate-300/[0.2]"> Airports </button>
                   </Link>
                   <LanguageDropDown />
                   <SearchIcon />
